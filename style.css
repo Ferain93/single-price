@@ -42,6 +42,7 @@ body {
 
 .main {
     background: var(--colorWhite);
+    box-shadow: 0 0 15px hsla(217, 22%, 67%, 0.685);
     border-radius: 8px;
     display: grid;
     margin: 2.5rem 2.5rem;
@@ -52,28 +53,29 @@ body {
 
 .content__title {
     color: var(--colorCyan);
-    padding: 1rem;
+    padding: 1rem 1rem 0rem 1rem;
 }
 
 .content__details {
     color: var(--colorBrightyellow);
-    padding: 1rem;
+    padding: 1rem 1rem 0rem 1rem;
 }
 
 .content__description {
     color: var(--colorGrayishblue);
-    padding: 1rem;
+    padding: 1rem 1rem 0rem 1rem;
 }
 
 .content-item {
     color: var(--colorWhite);
     display: flex;
-    gap: 4rem;
+    flex-wrap: wrap;
+    gap: 0rem;
 }
 
 .content-subscription {
     background: var(--colorCyanO);
-    
+    border-bottom-left-radius: 8px;
 }
 
 .subscription__time {
@@ -95,6 +97,7 @@ body {
 
 .content-reason {
     background: var(--colorCyan);
+    border-bottom-right-radius: 8px;
 }
 
 .content-reason__list {
