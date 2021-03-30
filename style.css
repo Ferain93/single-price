@@ -1,0 +1,32 @@
+@font-face{
+    font-family: Karla;
+    src: url('../single-price/fonts/Karla-Regular.ttf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face{
+    font-family: Karla;
+    src: url('../single-price/fonts/Karla-Bold.ttf');
+    font-style: normal;
+    font-weight: bold;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root { 
+    --colorCyan: hsl(179, 62%, 43%);
+    --colorBrightyellow: hsl(71, 73%, 54%);
+    --colorLightgray: hsl(204, 43%, 93%);
+    --colorGrayishblue: hsl(218, 22%, 67%);
+}
+
+body {
+    font-size: 16px;
+    background: var(--colorGrayishblue);
+    font-family: Karla;
+}
