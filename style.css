@@ -42,22 +42,51 @@ body {
 
 .main {
     background: var(--colorWhite);
+    border-radius: 8px;
     display: grid;
     margin: 2.5rem 2.5rem;
     gap: 2rem;
+    width: 35rem;
+    height: 27rem;
+}
+
+.content__title {
+    color: var(--colorCyan);
+    padding: 1rem;
+}
+
+.content__details {
+    color: var(--colorBrightyellow);
+    padding: 1rem;
+}
+
+.content__description {
+    color: var(--colorGrayishblue);
+    padding: 1rem;
 }
 
 .content-item {
+    color: var(--colorWhite);
     display: flex;
     gap: 4rem;
 }
 
 .content-subscription {
     background: var(--colorCyanO);
+    
+}
+
+.subscription__time {
+    color: var(--colorLightgray);
+}
+
+.subscription__description {
+    color: var(--colorLightgray);
 }
 
 .button {
     background: var(--colorBrightyellow);
+    color: var(--colorWhite);
     border-radius: 8px;
     border: none;
     width: 100%;
@@ -72,11 +101,11 @@ body {
     list-style: none;
 }
 .content-reason__list a {
-    
+    color: var(--colorLightgray);    
     text-decoration: none;
 }
 
-@media(max-width:21rem) {
+@media(max-width:25rem) {
     .content-item {
         display: flex;
         flex-direction: column;
