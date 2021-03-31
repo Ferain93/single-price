@@ -45,25 +45,26 @@ body {
     box-shadow: 0 0 0.5rem hsla(217, 22%, 67%, 0.685);
     border-radius: 0.5rem;
     display: grid;
-    margin: 2.5rem 2.5rem;
-    gap: 2rem;
-    width: 35rem;
-    height: 30rem;
+    margin: 2rem 2rem;
+    gap: 0rem;
+    width: 40rem;
+    height: 32rem;
 }
 
 .content__title {
     color: var(--colorCyan);
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 2.5rem 2rem 0rem 2rem;
 }
 
 .content__details {
     color: var(--colorBrightyellow);
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 2rem 2.5rem 0rem 2rem;
 }
 
 .content__description {
     color: var(--colorGrayishblue);
-    padding: 2rem 2rem 0rem 2rem;
+    padding: 2rem 2.5rem 2.5rem 2rem;
+    line-height: 2rem; 
 }
 
 .content-item {
@@ -80,7 +81,7 @@ body {
 }
 
 .subscription__title {
-    padding: 1rem 2rem 0rem 2rem;
+    padding: 2rem 2.5rem 0rem 2rem;
 }
 
 .div-price {
@@ -106,15 +107,23 @@ body {
     padding: 1rem 2rem 2rem 2rem;
 }
 
+.content-button {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 1rem;
+}
+
 .button {
     background: var(--colorBrightyellow);
     color: var(--colorWhite);
-    padding: 1rem 1rem 1rem 1rem;
-    margin-bottom: 2rem;
+    padding: 0.8rem;
     border-radius: 0.5rem;
     border: none;
-    width: 100%;
+    width: 17rem;
     height: 3rem;
+    font-weight: bold;
+    font-size: 1.05rem;
+    grid-column-start: 2;
 }
 
 .content-reason {
@@ -123,19 +132,19 @@ body {
 }
 
 .content-reason__title {
-    padding: 1rem 2rem 1rem 1rem;
+    padding: 2rem 2.5rem 1rem 2.5rem;
 }
 
 .content-reason__list {
     list-style: none;
-    padding: 1rem 2rem 1rem 1rem;
+    padding: 1rem 4.5rem 2rem 2.5rem;
 }
 .content-reason__list a {
     color: var(--colorLightgray);    
     text-decoration: none;
 }
 
-@media(max-width:23.5rem) {
+@media(max-width:23.4rem) {
     .content-item {
         display: flex;
         flex-direction: column;
