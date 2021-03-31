@@ -47,8 +47,8 @@ body {
     display: grid;
     margin: 2rem 2rem;
     gap: 0rem;
-    width: 40rem;
-    height: 32rem;
+    width: 41rem;
+    height: 33rem;
 }
 
 .content__title {
@@ -63,7 +63,7 @@ body {
 
 .content__description {
     color: var(--colorGrayishblue);
-    padding: 2rem 2.5rem 2.5rem 2rem;
+    padding: 2rem 4rem 2.5rem 2rem;
     line-height: 2rem; 
 }
 
@@ -111,6 +111,7 @@ body {
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 .button {
@@ -124,6 +125,7 @@ body {
     font-weight: bold;
     font-size: 1.05rem;
     grid-column-start: 2;
+    box-shadow: 0 0 0.5rem hsla(217, 22%, 67%, 0.685);
 }
 
 .content-reason {
@@ -137,18 +139,42 @@ body {
 
 .content-reason__list {
     list-style: none;
-    padding: 1rem 4.5rem 2rem 2.5rem;
+    padding: 1rem 4.55rem 2rem 2.5rem;
 }
+
 .content-reason__list a {
     color: var(--colorLightgray);    
     text-decoration: none;
 }
 
 @media(max-width:23.4rem) {
+    .wrapper {
+        height: 58rem;
+        margin: 2rem;
+    }
+    .main {
+        height: 55.8rem;
+        margin: 2rem;
+    }
     .content-item {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 0rem;
+    }
+
+    .content-subscription {
+        border-bottom-right-radius: 0rem;
+        border-bottom-left-radius: 0rem;
+    }
+
+    .content-reason {
+        border-bottom-right-radius: 0.5rem;
+        border-bottom-left-radius: 0.5rem;
+    }
+
+    .content-reason__list {
+        list-style: none;
+        padding: 1rem 5.6rem 2rem 2.5rem;
     }
 }
