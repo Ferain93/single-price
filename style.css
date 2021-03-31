@@ -65,12 +65,14 @@ body {
     color: var(--colorGrayishblue);
     padding: 2rem 4rem 2.5rem 2rem;
     line-height: 2rem; 
+    text-align: justify;
 }
 
 .content-item {
     color: var(--colorWhite);
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
     flex-grow: 1;
     gap: 0rem;
 }
